@@ -1,0 +1,79 @@
+header{
+    box-sizing: border-box;
+    display: flex;
+    padding : 0 400px;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+.header .title {
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    white-space: nowrap;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    width: 500px
+}
+
+.header nav a {
+    margin-right: 25px;
+}
+
+.header .login__btn{
+    box-sizing: border-box;
+    height: 30px;
+    width: 80px;
+    background-color: #EE0018;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+header a{
+    text-decoration-line : none;
+    color : #EE0018;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #ee0018cb;
+}
+
+.header .auth{
+    display: flex;
+    align-items: center;
+}
+
+.logout__btn{
+    color: #EE0018;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.auth a{
+    white-space: nowrap;
+}
+
+.header .an{
+    cursor: pointer;
+}

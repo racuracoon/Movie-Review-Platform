@@ -1,0 +1,61 @@
+.MovieColumn2{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 380px;
+    outline: 1px solid rgb(227, 227, 227);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.MovieColumn2 .poster{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.MovieColumn2 .movie-content{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 156px;
+    height: 50px;
+    padding: 10px;
+}
+
+.MovieColumn2 .poster img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.MovieColumn2 .movie-content #title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.MovieColumn2 .movie-content #release{
+    font-size: 12px;
+    color: #707070;
+}
+
+.MovieColumn2 .unlike{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+    right: 10px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.MovieColumn2 .like{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    right: 10px;
+    top: 7px;
+    cursor: pointer;
+}

@@ -1,0 +1,126 @@
+.community .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community .content__wrap{
+    height: 1800px;
+    width: 1180px;
+    padding : 0 30px;
+}
+
+.community .content{
+    display: flex;
+    position: relative;
+}
+
+.community .community__con{
+    width: 845px;
+    display: flex;
+    flex-direction: column;
+}
+
+.community .best{
+    width: 804px;
+    height: 205px;
+    outline: 1px solid rgb(227, 227, 227);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+
+.community .best__title{
+    box-sizing: border-box;
+    padding : 5px 10px;
+    height: 37px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    color: #525252;
+    font-weight: bold;
+}
+
+.community .best__content{
+    display: flex;
+    height: 169px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a{
+    width: 149px;
+    height: 149px;
+    outline: 1px solid rgb(227, 227, 227);
+}
+
+.community .recent{
+    width: 804px;
+    height: 1000px;
+    margin-top: 20px;
+    outline: 1px solid rgb(227, 227, 227);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+
+.community .rightside{
+    width: 335px;
+}
+
+.community__con{
+    display: flex;
+}
+
+.community__search{
+    display: flex;
+    align-items: center;
+    width: 335px;
+    height: 50px;
+    outline: 1px solid rgb(227, 227, 227);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+
+.community-search__input{
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 280px;
+    height: 40px;
+    border: 0px;
+    font-size: 18px;
+}
+
+.community-search__input:focus{
+    outline: none;
+}
+
+.community-seach__btn{
+    width: 30px;
+    height: 30px;
+    background-image: url("../../public/searchVector.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 0px;
+}
+
+.community .community-hot{
+    width: 335px;
+    height: 460px;
+    margin-top: 20px;
+    outline: 1px solid rgb(227, 227, 227);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+
+.community .new__community-btn{
+    box-sizing: border-box;
+    background-color: #EE0018;
+    height: 35px;
+    border: 0px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 720px;
+}

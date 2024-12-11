@@ -1,0 +1,38 @@
+.userinfo .content__wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo .content {
+    height: 2000px;
+    width: 1180px;
+    padding : 0 30px;
+}
+.userinfo .info__con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo .pw-change{
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.userinfo .pw-change .title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.userinfo .pw-change input{
+    margin-bottom: 10px;
+    height: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.61);
+}

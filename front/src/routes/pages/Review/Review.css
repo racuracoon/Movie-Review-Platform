@@ -1,0 +1,27 @@
+.Review .content-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Review .content{
+    height: 1800px;
+    width: 1180px;
+    padding : 0 30px;
+}
+
+.Review .review-wrap{
+    display: flex;
+    
+}
+
+.Review .review-con{
+    width: 850px;
+    height: 254px;
+}
+
+.review-pagecontroller{
+    display: flex;
+    justify-content: center;
+    width: 920px;
+}

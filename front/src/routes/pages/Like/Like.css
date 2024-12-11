@@ -1,0 +1,21 @@
+.like .content__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like .content{
+    height: 1800px;
+    width: 1225px;
+    padding : 0 30px;
+}
+
+.like .movie{
+    margin-right: 45px;
+}
+
+.like .movie__list{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}

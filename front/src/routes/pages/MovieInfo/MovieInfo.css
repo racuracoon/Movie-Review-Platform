@@ -1,0 +1,126 @@
+.movieinfo .content__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movieinfo .content{
+    height: 2000px;
+    width: 1180px;
+    padding : 0 30px;
+}
+
+.movieinfo .info__container{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(227, 227, 227);
+}
+
+.movieinfo .poster{
+    height: 100%;
+    width: 350px;
+    
+}
+
+.movieinfo .poster img{
+    border-radius: 12px;
+}
+
+.movieinfo .info{
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.movieinfo .info .title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.movieinfo .poster img{
+    height: 100%;
+}
+
+.movieinfo .genres{
+    display: flex;
+    margin: 30px 0 0 10px;
+}
+
+.movieinfo .genre{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.movieinfo .tagline{
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(57, 57, 57, 0.696)
+}
+
+.movieinfo .overview{
+    margin-top: 20px;
+}
+
+.movieinfo .overview__title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.movieinfo .overview__description{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.movieinfo .trailer__container{
+    margin-top: 50px;
+}
+
+.movieinfo .trailer__video{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movieinfo .trailer{
+    margin-right: 30px;
+}
+
+.movieinfo .no-trailer{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(57, 57, 57, 0.696)
+}
+
+.movieinfo .review__container{
+    margin-top: 50px;
+}
+
+.movieinfo .review__list{
+    margin-top: 30px;
+}
+
+.movieinfo .new__review-btn{
+    float: right;
+    box-sizing: border-box;
+    height: 35px;
+    width: 100px;
+    background-color: #EE0018;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    right: 30px;
+}
+
+.movieinfo .review__list{
+    position: relative;
+    top: 30px;
+    box-sizing: border-box;
+    padding: 20px 0;
+}

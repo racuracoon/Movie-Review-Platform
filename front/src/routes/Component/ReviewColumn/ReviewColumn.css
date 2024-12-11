@@ -1,0 +1,52 @@
+.ReviewColumn{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 254px;
+    outline: 1px solid rgb(227, 227, 227);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    position: relative;
+}
+
+.ReviewColumn .movie-poster{
+    width: 156px;
+    height: 236px;
+}
+
+.ReviewColumn .movie-poster img{
+    width: 100%;
+    height: 100%;
+}
+
+.ReviewColumn .ReviewColumn-content{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.ReviewColumn .review-detail-wrap{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ReviewColumn .link{
+    position: absolute;
+    top: 12px;
+    right: 30px;
+}
+
+.ReviewColumn .link a{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+}
+
+.ReviewColumn .link a:hover{
+    color: rgba(0, 0, 0, 0.678);
+}

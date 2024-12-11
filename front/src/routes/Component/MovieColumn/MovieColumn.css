@@ -1,0 +1,27 @@
+.MovieColumn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 200px;
+}
+
+.MovieColumn .poster{
+    height: 255px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.MovieColumn .poster img{
+    height: 100%;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.MovieColumn .content #title{
+    font-weight: bold;
+    font-size: 16px;
+}
+

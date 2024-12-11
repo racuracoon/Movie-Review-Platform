@@ -1,0 +1,21 @@
+.TrailerColumn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.TrailerColumn video{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.TrailerColumn #name{
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    width: 100%;
+}

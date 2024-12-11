@@ -1,0 +1,124 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 430px;
+    width: 1216px;
+}
+
+.main .media img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    filter: brightness(0.55) contrast(1.5);
+    opacity: 0.9;
+}
+
+.main .popular{
+    margin-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.main .slider{
+    width: 1216px;
+    overflow: hidden;
+}
+
+.main .movie__list{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    width: 1180px;
+    top: 12px;
+}
+
+.main .movie{
+    cursor: pointer;
+}
+
+.h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main #left__btn{
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 5px;;
+    background-color: #EE0018;
+    position: relative;
+    bottom: 190px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.main #right__btn{
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 5px;;
+    background-color: #EE0018;
+    position: relative;
+    bottom: 219px;
+    left: 1210px;
+    cursor: pointer;
+}
+
+.main #left__btn:hover{
+    background-color: #ee0018cb;
+}
+
+.main #right__btn:hover{
+    background-color: #ee0018cb;
+}
+
+.main .trailer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+}
+
+.main .trailer__list{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 1180px;
+    margin-top: 20px;
+    top: 12px;
+    justify-content: space-around;
+    background-image: url("../../public/Frame\ 23@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

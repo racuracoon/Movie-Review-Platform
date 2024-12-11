@@ -1,0 +1,26 @@
+.ReviewDetailColumn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 8px;
+    width: 192px;
+    height: 180px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 8px;
+}
+
+.ReviewDetailColumn .writer{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ReviewDetailColumn hr{
+    width: 100%;
+}
+
+.ReviewDetailColumn .description{
+    width: 180px;
+    height: 80px;
+    font-size: 14px;
+}
