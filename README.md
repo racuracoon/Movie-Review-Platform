@@ -33,3 +33,6 @@
 <img width="1912" height="906" alt="영화 목록 페이지 1" src="https://github.com/user-attachments/assets/855fc22c-99e5-4a75-b655-7cf6e2b93944" />
 <img width="1913" height="985" alt="영화 정보 페이지 1" src="https://github.com/user-attachments/assets/80efdbc0-b1f5-4783-ab81-dda7b35970be" />
 <img width="1909" height="904" alt="나의 영화 페이지" src="https://github.com/user-attachments/assets/7afeeb90-6c62-4e02-98dc-49f253d1e811" />
+<img width="1919" height="985" alt="리뷰 작성 페이지" src="https://github.com/user-attachments/assets/25fd7e7c-f661-46d4-8591-1cee31b37f51" />
+<img width="1915" height="991" alt="영화 정보 페이지 2" src="https://github.com/user-attachments/assets/871742b7-bdd1-4a3c-8f59-a63c7c6c5dee" />
+<img width="1909" height="990" alt="영화 리뷰 페이지 1" src="https://github.com/user-attachments/assets/a24ee5fa-e6ad-4197-a682-d67dfd9044e8" />
