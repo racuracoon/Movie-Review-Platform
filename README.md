@@ -29,7 +29,7 @@
 영화에 대한 다양한 정보를 한 곳에서 제공하고, 다른 사람들과 소통할 수 있는 공간을 제공 함으로써 영화 관람 경험을 향상 시킴
 
 <img width="1918" height="907" alt="Main페이지 1" src="https://github.com/user-attachments/assets/29eb1330-9a9e-4b7b-ba6a-4ed6e2673541" />
-<img width="1919" height="909" alt="회원가입 페이지" src="https://github.com/user-attachments/assets/78f8d8c4-5685-42f5-a8de-1ef9eb8ff28f" />
+<img width="1915" height="905" alt="로그인 페이지" src="https://github.com/user-attachments/assets/a4b05f1e-c763-47ec-bc8f-0bcd67d5b4e0" />
 <img width="1912" height="906" alt="영화 목록 페이지 1" src="https://github.com/user-attachments/assets/855fc22c-99e5-4a75-b655-7cf6e2b93944" />
 <img width="1913" height="985" alt="영화 정보 페이지 1" src="https://github.com/user-attachments/assets/80efdbc0-b1f5-4783-ab81-dda7b35970be" />
 <img width="1909" height="904" alt="나의 영화 페이지" src="https://github.com/user-attachments/assets/7afeeb90-6c62-4e02-98dc-49f253d1e811" />
